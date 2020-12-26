@@ -1,4 +1,14 @@
 nvm install 13.7.0
+nvm use 13.7.0
+pip install flask
+#if you don't have pip then install pip i think
 npm install -g yarn
 pip install -U flask-cors
 pip install flask-sqlalchemy
+#(then cd to api): then do the source #venv/bin/activate thing
+#then do cd ..
+#then type:
+yarn start
+#then open a second ubuntu at the same time go to #api then activate the thing then do cd.. then #type:
+yarn start-api
+##this should start a back-end thing...if this ##works were good to go inshallah
