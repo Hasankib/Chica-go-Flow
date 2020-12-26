@@ -59,53 +59,5 @@ function App() {
   );
 }
 
-/*class Login extends React.Component {
-  state = {
-    username: 'fjdh',
-    password: 'dhihf'
-  };
-  
-  
-    handleLogin = e => {
-      e.preventDefault();
-      fetch('/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          username: this.state.username,
-          password: this.state.password
-        })
-      })
-        .then(response => response.json())
-    };
-  
-  
-    render() {
-      return (
-        <form onSubmit={this.handleSubmit}>
-          Username:
-          <br />
-          <input
-            type="text"
-            name="username"
-            value={this.state.username}
-          />
-          <br />
-          Password:
-          <br />
-          <input
-            type="password"
-            name="password"
-            value={this.state.password}
-          />
-          <br />
-          <button onClick={this.handleLogin}>Login</button>
-        </form>
-      );
-    }
-  }*/
 
 export default App;
-//export default Login;
