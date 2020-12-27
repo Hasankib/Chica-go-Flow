@@ -18,6 +18,6 @@ def login():
     password = login_json.get('password')
     print(username)
     print(password)
-
+    
     return jsonify({'username': username}), 200
 
