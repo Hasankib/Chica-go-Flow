@@ -14,6 +14,6 @@ for x in client.list_tables(hn_dset):
             if((y['community_area']<=77 and y['community_area']>=1)):
                 dictionary[y['community_area']] += 1
 
-file1 = open("dataset.txt","w")
+file1 = open("dataset1.txt","w")
 file1.write(str(dictionary))
 file1.close()

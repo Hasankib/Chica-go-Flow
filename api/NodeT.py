@@ -1,8 +1,8 @@
 class NodeT():
     #
     def __init__(self, number,name,neighbours,weight):
-        self.name = name
         self.number = number
+        self.name = name
         self.neighbours = neighbours
         self.weight = weight
 
