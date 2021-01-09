@@ -1,0 +1,6 @@
+npm install --save react react-live-clock
+npm install --save moment-timezone 
+npm install --save react-moment
+npm install --save react-router-dom
+cd src
+npm install --save react-router

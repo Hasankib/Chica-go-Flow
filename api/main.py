@@ -44,8 +44,8 @@ print((main.nodeList)[76].name)
 print((main.nodeList)[76].neighbours)
 print((main.nodeList)[76].weight)
 
-queue = {0:100,1:50,2:20}
-minKey = min(queue.keys(), key=(lambda k: queue[k]))
-queue.pop(minKey)
-print(queue)
-print(minKey)
+#queue = {0:100,1:50,2:20}
+#minKey = min(queue.keys(), key=(lambda k: queue[k]))
+#queue.pop(minKey)
+#print(queue)
+#print(minKey)
