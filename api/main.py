@@ -1,5 +1,5 @@
 from NodeT import *
-#from GraphT import *
+from GraphT import *
 #from BFS import *
 
 class main:
@@ -38,6 +38,18 @@ print((main.nodeList)[0].number)
 print((main.nodeList)[0].name)
 print((main.nodeList)[0].neighbours)
 print((main.nodeList)[0].weight)
+
+print()
+graph = GraphT(main.nodeList)
+numVert = graph.vertices()
+print("The number of vertices is", numVert)
+print("---------------")
+graph.buildGraph()
+print("Graph is built")
+print("---------------")    
+print("The number of edges is ", graph.edges())
+print("---------------")    
+graph.toString()
 
 print((main.nodeList)[76].number)
 print((main.nodeList)[76].name)
