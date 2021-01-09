@@ -82,8 +82,9 @@ function App() {
   }
 
   const handleStartingCommunityChange = (e) => {
-    if(e.target.value>=1 && e.target.value<=77){setWrongNumber(false);}
-    if(e.target.value>=1 && e.target.value<=77 && destinationCommunity>=1 && destinationCommunity<=77){setDestinationMessage("The most popular destinations from your source: ");}else{setDestinationMessage("");setWrongNumber(true);}
+    if(!(e.target.value>=1 && e.target.value<=77)){setDestinationMessage("");}
+    if(e.target.value>=1 && e.target.value<=77){setDestinationMessage("The most popular destinations from your source: ");}else{setWrongNumber(true);}
+    if(!(destinationCommunity>=1 && destinationCommunity<=77)){setWrongNumber(true);}
     setStartingCommunity(e.target.value);
     targetvalue = e.target.value;
     popularDestination();
@@ -120,7 +121,6 @@ function App() {
   }
 
   const hDCC7 = (e) => {
-    setDestinationCommunity(popDests[5]);
     x = popDests[5];
     findPath2();
   }
