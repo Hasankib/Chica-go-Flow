@@ -1,2 +1,2 @@
 # Chica-go-Flow
-A react app backended through Python's Flask library that models data collected since 2001 as a graph and implements Dijkstra's Algorithm to find the safest path(ie. the path with the least amount of crimes commited through it in the past 19 years) between 2 community areas in the cite of Chicago,IL. Done by Mahmoud Anklis and Hasan Shahid Kibria 
+A react app backended through Python's Flask library that models data collected since 2001 as a graph and implements Dijkstra's Algorithm to find the safest path(ie. the path with the least amount of crimes commited through it in the past 19 years) between 2 community areas in the city of Chicago,IL. Done by Mahmoud Anklis and Hasan Shahid Kibria 
