@@ -1,6 +1,7 @@
 from NodeT import *
 from GraphT import *
 #from BFS import *
+from DijkstraSPT import *
 
 class main:
     def __init__(self, nodeList):
@@ -56,6 +57,8 @@ print((main.nodeList)[76].name)
 print((main.nodeList)[76].neighbours)
 print((main.nodeList)[76].weight)
 
+shortP = DijkstraSPT(graph, graph.listOfNodes[0], graph.listOfNodes[1])
+shortP.calculateDistances()
 #queue = {0:100,1:50,2:20}
 #minKey = min(queue.keys(), key=(lambda k: queue[k]))
 #queue.pop(minKey)
