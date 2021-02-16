@@ -27,13 +27,12 @@ class DijkstraSPT():
 
 
 
-        pq = [(0,self.source.getnumber() - 1)]
-        while len(pq) > 0:
-            current_distance, current_vertex = heapq.heappop(pq)
-            if current_distance > distances[current_vertex]:
+        priorityQueue = [(0,self.source.getnumber() - 1)]
+        while len(priorityQueue) > 0:
+            currentDistance, currentVertex = heapq.heappop(priorityQueue)
+            if currentDistance > distances[currentVertex]:
                 continue
 
-            for neighbor
 
 
     # def delMin(self):
